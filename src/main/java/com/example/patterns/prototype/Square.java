@@ -1,9 +1,11 @@
 package com.example.patterns.prototype;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
+//@EqualsAndHashCode(callSuper = true)
 @Data
-public class Square extends Shape{
+public class Square extends Shape {
     public int perimetr;
 
     public Square() {}
